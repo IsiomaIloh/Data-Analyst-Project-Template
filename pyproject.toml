@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "shopping-trends-project"
+version = "0.1.0"
+description = "This project captures customer shopping preferences, providing vital insights for businesses aiming to better understand their clientele"
+authors = ["Isioma Iloh <ilohkingsleyisioma@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/IsiomaIloh/Customer-Shopping-Trends-Dataset"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.1"
+matplotlib = "^3.8.3"
+seaborn = "^0.13.2"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
